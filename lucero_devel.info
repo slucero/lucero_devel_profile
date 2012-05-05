@@ -1,0 +1,36 @@
+name = Lucero Development Profile
+core = 7.x
+description = An installation profile for Stephen Lucero's general development configuration.
+
+; DEPENDENCIES =================================================================
+; Core
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = menu
+dependencies[] = path
+
+; Contrib
+dependencies[] = absolute_messages
+dependencies[] = admin
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = backup_migrate
+dependencies[] = coder
+dependencies[] = ctools
+dependencies[] = devel
+dependencies[] = diff
+dependencies[] = entity
+dependencies[] = entitycache
+dependencies[] = features
+dependencies[] = features_override
+dependencies[] = forminspect
+dependencies[] = jquery_update
+dependencies[] = libraries
+dependencies[] = module_filter
+dependencies[] = module_summary
+dependencies[] = strongarm
+dependencies[] = views
+dependencies[] = views_ui
+
+; Features
